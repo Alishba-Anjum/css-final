@@ -1,0 +1,673 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(80, 65, 65);
+}
+
+/* Navigation Bar */
+nav {
+    height: 4vw;
+    background-color: rgb(80, 65, 65);
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7vw;
+    border-bottom: 1px solid rgb(87, 82, 82);
+    box-shadow: 4px 4px 20px rgb(164, 150, 69);
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6vw;
+}
+
+.nav-btn {
+    margin-right: 6vw;
+    display: flex;
+    gap: 4vw;
+}
+
+.nav-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.icons {
+    display: flex;
+    gap: 2vw;
+    font-size: 1.3vw;
+    padding-right: 5vw;
+}
+
+#menu {
+    display: none;
+    font-size: 2.2vw;
+    cursor: pointer;
+}
+
+/* Main Container */
+.main-container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    width: 90%;
+    padding: 0 7.2vw;
+    height: 400px;
+}
+
+/* Left Section Styles */
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3vw;
+}
+
+.left h1 {
+    font-size: 3.3vw;
+    width: 100%;
+    z-index: 1;
+}
+
+.left h1::first-letter {
+    color: darkgoldenrod;
+    font-size: 3.9vw;
+}
+
+.left .space {
+    width: 230px;
+    border-bottom: 5px solid darkgoldenrod;
+}
+
+.left h3 span {
+    color: darkgoldenrod;
+    font-size: 1.7vw;
+}
+
+.left h3 {
+    font-size: 1.3vw;
+}
+
+.left p {
+    font-size: 1.1vw;
+    line-height: 1.6vw;
+}
+
+/* Home 2 Section Styles */
+.home2 {
+    display: flex;
+    width: 60%;
+    height: 400px;
+    gap: 3vw;
+    margin-right: 15%;
+    position: relative;
+}
+
+/* Right Section Styles */
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4vw;
+    position: relative;
+    margin-left: 50%;
+}
+
+.right h4 {
+    font-size: 1.6vw;
+}
+
+.right p {
+    font-size: 1.2vw;
+    line-height: 1.9vw;
+}
+
+.right span {
+    color: darkgoldenrod;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+.right .arrow {
+    color: white;
+    padding-left: 1.3vw;
+}
+
+.right .icons-right {
+    display: flex;
+    gap: 1.3vw;
+}
+
+.icons-right i {
+    color: darkgoldenrod;
+    font-size: 1.5vw;
+    background-color: rgba(190, 167, 167, 0.3);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 9px;
+    transition: 1s ease;
+}
+
+.icons-right i:hover {
+    background-color: darkgoldenrod;
+    color: white;
+    box-shadow: 3px 3px 10px darkgoldenrod;
+}
+
+/* Center Section Styles */
+.center {
+    background-color: rgb(66, 57, 57);
+    height: 23vw;
+    width: 23vw;
+    border-radius: 50%;
+    position: absolute;
+    right: 72%;
+    box-shadow: 2px 2px 20px goldenrod;
+}
+
+.center img {
+    height: 23vw;
+    width: 23vw;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.second-part{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(66, 57, 57);
+}
+.centerpart{
+    height: 90px;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(96, 78, 78);
+    position: absolute;
+    top: 73%;
+    left: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.one, .two, .three, .four{
+    background-color: rgb(71, 67, 67);
+    height: 60px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.centerpart img{
+    height: 50px;
+    width: 120px;
+    background-size: cover;
+}
+.two img{
+    height: 70px;
+}
+.section1{
+    width: 50%;
+    height: 100%;
+    
+    
+}
+.section1 h1{
+    margin: 15% 15% 3% 15%;
+    line-height: 50px;
+    font-size: 35px;
+
+}
+.section1 .div1{
+    width: 200px;
+    height: 80px;
+}
+.section1 .para{
+    margin: 0 15%;
+    width: 300px;
+    line-height: 25px;
+}
+.section1 .uppr{
+    width: 400px;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.uppr span, sup{
+    color: darkgoldenrod;
+    font-size: 30px;
+    font-weight: bold;
+}
+.neeche{
+    display: flex;
+    margin-left: 15%;
+}
+.neeche span{
+    color: darkgoldenrod;
+    font-size: 30px;
+    font-weight: bold;
+}
+.section2{
+    width: 50%;
+    height: 100%;
+}
+.footer{
+    width: 100%;
+    height: 79vh;
+    background-color: rgb(68, 60, 60);
+    display: flex;
+   flex-wrap: wrap;
+   padding-bottom: 40px;
+  
+    
+}
+.section2{
+    padding-top: 8%;
+}
+.section2 .top{
+    margin-bottom: 1%;
+    border-bottom: 3px solid grey;
+    height: 130px;
+    display: flex;
+    width: 500px;
+    margin-left: 40px;
+}
+.top2{
+    display: flex;justify-content: space-between;
+    width: 400px;
+}
+.text h1{
+    font-size: 20px;
+}
+.img{
+    height: 100px;
+    width: 180px;
+    
+}
+.img img{
+    height: 100%;
+    width:80%;
+}
+.teer{
+    padding-top: 50px;
+    font-size: 30px;
+}
+.teer i{ color: darkgoldenrod;}
+
+/* Responsive Design */
+@media (max-width: 560px) {
+    .main-container{
+        height: 100vh;
+    }
+    nav {
+        height: 50px;
+        padding: 0 5vw;
+    }
+    .logo {
+        font-size: 3vw;
+    }
+    #menu {
+        display: block;
+        font-size: 6vw;
+    }
+    .nav2, .icons {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: rgb(80, 65, 65);
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: 10;
+    }
+    .nav-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        margin: 10px 0;
+    }
+    .nav2.active, .icons.active {
+        display: flex;
+    }
+    .nav-btn a {
+        font-size: 4vw;
+        padding: 10px 0;
+        border-top: 1px solid rgb(87, 82, 82);
+    }
+    .icons {
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .home, .right {
+        height: 30%;
+        width: 100%;
+        margin-top: 8%;
+        
+    }
+    .left h1 {
+        font-size: 5vw;
+    }
+    .left h1::first-letter {
+        font-size: 9vw;
+    }
+    .left h3 {
+        font-size: 3vw;
+    }
+    .left .space {
+        width: 120px;
+    }
+    .left h3 span {
+        font-size: 3.3vw;
+    }
+    .left p {
+        font-size: 2.6vw;
+        line-height: 4vw;
+    }
+    .home2 {
+        margin-right: 25%;
+        
+        
+    }
+    .one{
+        width: 120px;
+        
+    }
+    .main-container {
+        flex-wrap: wrap;
+    }
+    .right h4 {
+        font-size: 3vw;
+    }
+    .right p {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+    .right span {
+        font-size: 2vw;
+    }
+    .right {
+        gap: 3vw;
+        margin-top: 29%;
+        width: 100%;
+        height: 50%;
+        margin-left: 1px;
+    }
+    .center {
+        height: 250px;
+        width: 250px;
+        left: 3%;
+        top: 80%;
+    }
+    .center img {
+        height: 250px;
+        width: 250px;
+    }
+    .right .icons-right i {
+        height: 30px;
+        width: 30px;
+        font-size: 3vw;
+        padding: 6px;
+    }
+    .centerpart{
+        top: 140%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        padding: 20px;
+
+    }
+    .centerpart{
+        background-color: rgb(68, 60, 60);
+        width: 400px;
+        height: 120px;
+    }
+    .centerpart img{
+        height: 40px;
+        width: 50px;
+        
+    }
+    .one, .two, .three, .four{
+        width: 150px;
+        height: 50px;
+        margin: 0%;
+    }
+    .two img{
+        height: 60px;
+    }
+
+    .footer{
+        width: 100%;
+        height: 100vh;
+        margin-top: 50%;
+    }
+    .section1{
+        width: 100%;
+        height: 80vh;
+    }
+    .section1 h1{
+        margin-top: 25%;
+        margin-bottom: 5%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section1 span{
+        font-size: 20px;
+    }
+    .div1 p{
+        font-size: 15px;
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-container{
+        height: 100vh;
+    }
+    .logo {
+        font-size: 4vw;
+    }
+    #menu {
+        font-size: 7vw;
+    }
+    .nav-btn a {
+        font-size: 5vw;
+        padding: 8px 0;
+    }
+    .home, .right {
+        height: 25%;
+        width: 100%;
+        margin-top: 20%;
+    
+      
+    }
+    .left h1 {
+        font-size: 6vw;
+    }
+    .left h1::first-letter {
+        font-size: 9vw;
+    }
+    .left h3 {
+        font-size: 4vw;
+    }
+    .left .space {
+        width: 80px;
+    }
+    .left h3 span {
+        font-size: 3.6vw;
+    }
+    .left p {
+        font-size: 3.4vw;
+        line-height: 4vw;
+    }
+    .home2 {
+        margin-right: 28%;
+        
+    }
+    .main-container {
+        flex-wrap: wrap;
+    }
+    .right h4 {
+        font-size: 4vw;
+    }
+    .right p {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    .right span {
+        font-size: 3vw;
+    }
+    .right {
+        gap: 3vw;
+        margin-top: 6%;
+        width: 100%;
+        height: 50%;
+       margin-left: 0px;
+    }
+    .center {
+        height: 250px;
+        width: 250px;
+        left: 3%;
+        top: 45%;
+    }
+    .center img {
+        height: 250px;
+        width: 250px;
+    }
+    .right .icons-right i {
+        height: 30px;
+        width: 30px;
+        font-size: 4.6vw;
+        padding: 5px;
+    }
+    .centerpart{
+        top: 120%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+       
+        left: 1px;
+
+    }
+    .centerpart{
+        background-color: rgb(97, 84, 84);
+        width: 370px;
+        height: 140px;
+    }
+    .centerpart img{
+        height: 40px;
+        width: 50px;
+        
+    }
+    .one, .two, .three, .four{
+        width: 150px;
+        height: 50px;
+        margin: 0%;
+
+    }
+    .two img{
+        height: 60px;
+    }
+    .secondpart{
+        height: 100vh;
+    }
+    .footer{
+        width: 100%;
+        height: 100vh;
+        margin-top: 55%;
+        width: 100%;
+    }
+    .section1{
+        width: 100%;
+        height: 80vh;
+       
+        
+    }
+    .section1 h1{
+        margin-top: 25%;
+        margin-bottom: 5%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section1 span{
+        font-size: 20px;
+    }
+    .div1 p{
+        font-size: 15px;
+        margin: 20px 0;
+    }
+    .section1{
+        width: 100%;
+        background-color: rgb(68, 60, 60);
+    }
+    .footer{
+        height: 150vh;
+        width: 100%;
+    }
+    .section1 .neeche .div1 span sup{
+        font-size: 20px;
+    }
+    .uppr span sup{
+        font-size: 20px;
+    }
+    .div1{
+        width: 100px;
+        margin-top: 20px;
+    }
+    .div1 p{
+        font-size: 10px;
+    }
+    .d2{
+     margin-right: 70px;
+    }
+    .section2{
+        width: 100%;
+
+    }
+    .top2{
+        width: 200px;
+    }
+    .teer{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .img{
+        height: 60px;
+        width: 100px;
+        
+    }
+    .text h1{
+        font-size: 15px;
+    }
+}
